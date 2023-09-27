@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <br>
+    <br>
+    <br>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok Raj - Creative Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1560807707-8cc77767d783'); /* Sky and mountain background */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            transform: scale(1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container img:hover {
+            transform: scale(1.1);
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 20px 0;
+            color: #25274d;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        
+        .highlight {
+            color: #ff6b6b;
+        }
+
+        .info {
+            text-align: center;
+        }
+
+        .info h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #25274d;
+        }
+
+        .info p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .social-icons {
+            text-align: center;
+        }
+
+        .social-icons a {
+            font-size: 2rem;
+            color: #25274d;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #ff6b6b;
+        }
+
+        
+        @media (max-width: 767px) {
+            .container {
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .container img {
+margin-top:30px
+                margin-bottom: 20px; 
+            }
+
+            .content {
+                text-align: center; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br>
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/D4D03AQHODuqf1janyQ/profile-displayphoto-shrink_200_200/0/1692605229962?e=1700697600&v=beta&t=2e3j6vwCMbSqOTctgZfKYD0-rqW4flSvGoY_Bq0iFFE" alt="Alok Raj">
+        <div class="content">
+            <h1>Alok Raj</h1>
+            <p class="highlight">Creative Enthusiat</p>
+            <p>
+                I'm a creative web developer and designer with a passion for creating clean and user-friendly websites. My work focuses on delivering modern and responsive digital experiences.
+            </p>
+            <div class="social-icons">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Dribbble</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
