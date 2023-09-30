@@ -1,10 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <br>
-    <br>
-    <br>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alok Raj</title>
@@ -12,7 +8,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-image: url('https://images.unsplash.com/photo-1560807707-8cc77767d783'); /* Sky and mountain background */
+            background-image: url('https://images.unsplash.com/photo-1560807707-8cc77767d783'); 
             background-size: cover;
             background-position: center;
             margin: 0;
@@ -20,11 +16,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         .container {
             max-width: 1000px;
+            width: 100%;
             padding: 40px;
             background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
@@ -33,6 +30,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            overflow: hidden; 
         }
 
         .container img {
@@ -67,25 +65,8 @@
             color: #555;
         }
 
-        
         .highlight {
             color: #ff6b6b;
-        }
-
-        .info {
-            text-align: center;
-        }
-
-        .info h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color: #25274d;
-        }
-
-        .info p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            color: #555;
         }
 
         .social-icons {
@@ -104,39 +85,37 @@
             color: #ff6b6b;
         }
 
-        
         @media (max-width: 767px) {
             .container {
-                flex-direction: column; 
-                align-items: center; 
+                flex-direction: column;
+                align-items: center;
             }
 
             .container img {
-margin-top:30px
-                margin-bottom: 20px; 
+                margin-top: 30px;
+                margin-bottom: 20px;
             }
 
             .content {
-                text-align: center; 
+                text-align: center;
             }
         }
     </style>
 </head>
 <body>
-    <br><br><br><br>
     <div class="container">
         <img src="https://media.licdn.com/dms/image/D4D03AQHODuqf1janyQ/profile-displayphoto-shrink_200_200/0/1692605229962?e=1700697600&v=beta&t=2e3j6vwCMbSqOTctgZfKYD0-rqW4flSvGoY_Bq0iFFE" alt="Alok Raj">
         <div class="content">
             <h1>Alok Raj</h1>
-            <p class="highlight">Creative Enthusiat</p>
+            <p class="highlight">Dreamer | Creator | Transforming ideas into reality 💡</p>
             <p>
-                I'm a creative web developer and designer with a passion for creating clean and user-friendly websites. My work focuses on delivering modern and responsive digital experiences.
+               I'm a creative soul passionate about bringing ideas to vibrant reality. <br> My goal is to bring smiles on people's faces by turning imaginative ideas into joyful experiences! ✨😊
             </p>
             <div class="social-icons">
-                <a href="#">Twitter</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-                <a href="#">Dribbble</a>
+
+                <a href="https://in.linkedin.com/in/alok-raj-b89627211">LinkedIn</a>
+                <a href="https://www.instagram.com/alokkk_3/">Instagram</a>
+
             </div>
         </div>
     </div>
