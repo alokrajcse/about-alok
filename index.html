@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-image: url('https://images.unsplash.com/photo-1560807707-8cc77767d783'); /* Sky and mountain background */
+            background-image: url('https://images.unsplash.com/photo-1560807707-8cc77767d783'); 
             background-size: cover;
             background-position: center;
             margin: 0;
@@ -31,7 +31,19 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            overflow: hidden; 
+            overflow: hidden;
+            animation: splash 1s ease-out; 
+        }
+
+        @keyframes splash {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .container img {
@@ -64,7 +76,7 @@
             font-size: 1.2rem;
             margin: 20px 0;
             color: #555;
-            display: block; 
+            display: block;
         }
 
         .highlight {
