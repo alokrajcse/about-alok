@@ -1,6 +1,6 @@
 # 👋 Hello! I'm Alok Raj
 
-Welcome to my GitHub profile! I'm a passionate computer science and engineering student dedicated to crafting captivating digital experiences. Currently, I'm pursuing my degree at the Silicon Institute of Technology, where I immerse myself in the world of technology to blend creativity and technical prowess into every project.
+Welcome to my GitHub profile! I'm Alok Raj, a passionate computer science and engineering student dedicated to crafting captivating digital experiences. Currently, I'm pursuing my degree at the Silicon Institute of Technology, where I immerse myself in the world of technology to blend creativity and technical prowess into every project.
 
 ## 🚀🎓 Education
 
