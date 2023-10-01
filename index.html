@@ -88,7 +88,7 @@
         }
 
         .social-icons a {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: #25274d;
             margin: 0 15px;
             text-decoration: none;
@@ -96,6 +96,45 @@
         }
 
         .social-icons a:hover {
+            color: #ff6b6b;
+        }
+
+        .contact-me {
+            margin-top: 20px;
+        }
+
+        .contact-me button {
+            background-color: #ff6b6b;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .contact-me button:hover {
+            background-color: #25274d;
+        }
+
+        .email-container {
+            display: none;
+            margin-top: 10px;
+        }
+
+        .email-container span {
+            font-size: 1.2rem;
+            color: #555;
+            display: block;
+        }
+
+        .email-container a {
+            color: #25274d;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .email-container a:hover {
             color: #ff6b6b;
         }
 
@@ -128,13 +167,37 @@
             <div class="social-icons">
                 <a href="https://in.linkedin.com/in/alok-raj-b89627211">LinkedIn</a>
                 <a href="https://www.instagram.com/alokkk_3/">Instagram</a>
+                <a href="https://github.com/alokrajcse/">GitHub</a>
+
+            </div>
+            <!-- New Contact Me Section with Button -->
+            <div class="contact-me">
+                <button id="showEmailButton" onclick="toggleEmail()">Say hi</button>
+                <div class="email-container" id="emailContainer">
+                    <span> <a >alok.raj0123@gmail.com</a></span>
+                </div>
             </div>
         </div>
     </div>
+
+    <script>
+        function toggleEmail() {
+            var emailContainer = document.getElementById("emailContainer");
+            var showEmailButton = document.getElementById("showEmailButton");
+
+            if (emailContainer.style.display === "none" || emailContainer.style.display === "") {
+                emailContainer.style.display = "block";
+                showEmailButton.innerText = "Say hi";
+            } else {
+                emailContainer.style.display = "none";
+                showEmailButton.innerText = "Say hi";
+            }
+        }
+    </script>
 </body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </html>
